@@ -8,4 +8,6 @@ You can move your spaceship using arrows, if you would like to shot just click s
 
 Good luck and have fun.
 
+Game doesn't work properly on mobile devices.
+
 If you have any questions write me private message
