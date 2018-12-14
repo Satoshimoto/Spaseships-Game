@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spaceships game</title>
+    <link href='img/logo.ico' rel='shortcut icon' />
+    <style>
+        body {
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #scores {
+            width: 100px;
+            height: 50px;
+            color: white;
+            text-align: center;
+            font-size: 1.6em;
+        }
+
+        #gameover {
+            width: 300px;
+            color: white;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -20%);
+            text-align: center;
+            visibility: hidden;
+        }
+
+        #youWon {
+            width: 300px;
+            color: white;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -20%);
+            text-align: center;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<div id='scores'></div>
+<div id='gameover'>
+    <h1>Game Over</h1>
+</div>
+<div id='youWon'>
+    <h1>Mission completed ! You won ! Congratulations</h1>
+</div>
+
+<body>
+    <script src='js/Game.js'></script>
+    <script src='js/Player.js'></script>
+    <script src='js/Bullet.js'></script>
+    <script src='js/Enemies.js'></script>
+    <script src='js/Boss.js'></script>
+</body>
+
+</html>
