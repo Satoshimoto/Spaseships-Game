@@ -12,5 +12,3 @@ Game doesn't work properly on mobile devices.
 
 If you have any questions write me private message
 
-
-You can check this game here: http://myfolio.pl/spaceship.html
